@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba0a4102407a024b80a97ec3ad5cfe9, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 85fd432853ef15a458588dfcbc5e0e0b, type: 3}
+  flavourText: "\u201CThere is a rumour going around that I have found God. I think
+    this is unlikely because I have enough difficulty finding my keys, and there
+    is empirical evidence that they exist.\u201D"
+  textSource: "\u2015 Terry Pratchett"

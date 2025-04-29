@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3208949081950328995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2065074698129416548}
+  - component: {fileID: 5156630072209784299}
+  m_Layer: 0
+  m_Name: LogicManager
+  m_TagString: Logic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2065074698129416548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3208949081950328995}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5156630072209784299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3208949081950328995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7f58ca1477a6347aeb7d1421033794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canOpenInv: 0
+  inventoryScreen: {fileID: 0}
+  objs: []
+  openDoorSprite: {fileID: 0}
+  closedDoorSprite: {fileID: 0}
+  rippedPaintingSprite: {fileID: 0}
+  closedBookcase: {fileID: 0}
+  openBookcase: {fileID: 0}
+  exitDoor: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  playerStorage: {fileID: 11400000, guid: b399a3e1251789941bac23c96eeb6c32, type: 2}
+  rotationCount: {fileID: 11400000, guid: 4cfa9cc0718c0c74295637ddaffcfc90, type: 2}
+  bookPickedUp: {fileID: 11400000, guid: 9de62e00ef1b8764ab58a9ee2e9440dd, type: 2}
+  keyPickedUp: {fileID: 11400000, guid: 4894a4a9fc15c3445928e1cd524de293, type: 2}
+  pinPickedUp: {fileID: 11400000, guid: 96744dfbf3275b34f89cba2117a6017b, type: 2}
+  penPickedUp: {fileID: 11400000, guid: f5f8c96d01288a64c9d4384506dba15f, type: 2}
+  drawerOpen: {fileID: 11400000, guid: 8316b7dd66f95a9429f50f1067ead0b2, type: 2}
+  R1DoorOpen: {fileID: 11400000, guid: 573900a3bc1be054eb5e17cfa437ef48, type: 2}
+  bookcaseOpen: {fileID: 11400000, guid: 351f3e4bd3e303b4c972eabb990cc357, type: 2}
+  book2PickedUp: {fileID: 11400000, guid: a46b68f4632d45e4a941d71b64db2965, type: 2}
+  paintingRipped: {fileID: 11400000, guid: 5c9af75d55c61d749850d218b7b9622c, type: 2}
+  finalNoteRead: {fileID: 11400000, guid: cd44fcaa7b4e3b146b82ab7e64aa1214, type: 2}
+  doFadeOut: {fileID: 11400000, guid: f0db13054ebc2124c9c4b9e81f0f79fb, type: 2}
+  deathButtonPressed: {fileID: 11400000, guid: 6fce4795680aae24282434594e047f49, type: 2}
+  changeSceneAfterFade: {fileID: 11400000, guid: ae673ddd54090534196759cbb79c46cf, type: 2}
+  gameWon: {fileID: 11400000, guid: 94ebc7c13acbcde4e89976d4f1327013, type: 2}
+  startingGame: {fileID: 11400000, guid: 70cc214fe2223134397ffb0435cd3358, type: 2}
+  gamePaused: {fileID: 11400000, guid: 0f2c212944c8a9d40a768bda4c95ae7d, type: 2}

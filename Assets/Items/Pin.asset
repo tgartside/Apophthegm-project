@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba0a4102407a024b80a97ec3ad5cfe9, type: 3}
+  m_Name: Pin
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: b397f51233fab7949b38b341eab99cb1, type: 3}
+  flavourText: "\u201CSee a pin and pick it up, and, all day long, you'll have a
+    pin.\u201D"
+  textSource: "\u2015 Terry Pratchett, Going Postal"
